@@ -51,7 +51,9 @@
     }
 ];
 
- 
+ const answerEls = document.querySelectorAll('.answer');
+const quiz = document.getElementById('quiz');
+
 
 
 
