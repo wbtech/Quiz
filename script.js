@@ -3,7 +3,7 @@
     {
         question: 'Country with the largest population in the world?',
         a: 'Brazil
-        b: 'Nigeria
+        b: 'Nigeria'
         c: 'China
         d: 'USA
         correct: 'c',
