@@ -55,21 +55,13 @@ question: 'Country with the largest population in the world?',
         c: 'China
         d: 'USA
         correct: 'c',
-    }, 
-    {
-        question: 'what is the most used programming language in 2020?',
-        a: 'Java',
-        b: 'C',
-        c: 'python',
-        d: 'Javascript',
-        correct: 'd',
     },
      {
-        question: 'Who is the President of Nigeria?',
-        a: 'Bola Tinubu',
-        b: 'Bukola Saraki',
-        c: 'Muhammadu Buhari',
-        d: 'Dayo Abiodun
+        question: 'Lionel Messi highest in a season is'?',
+        a: 56,
+        b: 31,
+        c: 91,
+        d: 45
         correct: 'c',
     },
         
