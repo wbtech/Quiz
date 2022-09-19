@@ -94,7 +94,9 @@ question: 'Country with the largest population in the world?',
  const answerEls = document.querySelectorAll('.answer');
 const quiz = document.getElementById('quiz');
 
-
+quiz.Map(() => {
+  
+})
 
 
   
