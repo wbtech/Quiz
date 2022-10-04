@@ -122,8 +122,6 @@ function loadQuiz () {
 }
 
 function getSelected(){
-    
-
     let answer = undefined;
 
     answerEls.forEach((answerEl) => {
@@ -131,7 +129,6 @@ function getSelected(){
             answer= answerEl.id;
         }
     });
-
         return answer;
 }
 
