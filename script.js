@@ -156,7 +156,7 @@ submitbtn.addEventListener('click', () => {
     };   
     }
 });
-console.log(quizData.length);
+
 
   
   
