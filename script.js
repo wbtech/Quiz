@@ -81,14 +81,7 @@ question: 'Country with the largest population in the world?',
         d: '1996',
         correct: 'b',
     },
-     {
-        question: 'which of these is not an African country',
-        a: 'Mozambique',
-        b: 'Peru',
-        c: 'Botswana',
-        d: 'Liberia',
-        correct: 'b',
-    }
+
 ];
 
  const answerEls = document.querySelectorAll('.answer');
@@ -146,7 +139,7 @@ submitbtn.addEventListener('click', () => {
         if (answer === quizData[currentQuiz].correct) {
             score++
         }
-
+        
        currentQuiz++;
        if (currentQuiz < quizData.length){
            loadQuiz();
