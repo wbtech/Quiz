@@ -17,18 +17,18 @@
         correct: 'd',
     },
      {
-        question: 'Who is the President of Nigeria?',
-        a: 'Bola Tinubu',
-        b: 'Bukola Saraki',
-        c: 'Muhammadu Buhari',
-        d: 'Dayo Abiodun
+        question: 'Which of this is not a continent?',
+        a: 'Africa',
+        b: 'Asia',
+        c: 'Madagascar',
+        d: 'Europe'
         correct: 'c',
     },
         
      {
         question: 'What does HTML stand for?',
         a: 'Hypertext Markup Language',
-        b: 'Cascading Style Sheet',
+        b: 'Hypertool Mockup Language',
        c: "Help Timothy Move Log"
         d: 'Helicopters Terminal Motorbots Lamborginis',
         correct: 'a',
@@ -104,9 +104,7 @@ function loadQuiz () {
     deselectAnswers();
 
     const currentQuizData = quizData[currentQuiz];
-
     questionE1.innerHTML = currentQuizData.question;
-
     a_text.innerHTML = currentQuizData.a;
     b_text.innerHTML = currentQuizData.b;
     c_text.innerHTML = currentQuizData.c;
